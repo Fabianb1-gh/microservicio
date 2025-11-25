@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: microservicio
+spec:
+  containers:
+    - name: nginx
+      image: hoverdev/hola-mundo:4
+      ports:
+        - containerPort: 3000
