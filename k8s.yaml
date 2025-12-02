@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: hola-mundo
-          image: fbust/hola-mundo:2
+          image: edisonpaul4/hola-mundo:9
           ports:
             - containerPort: 3000
           resources:
